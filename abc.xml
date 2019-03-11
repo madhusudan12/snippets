@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <sitemap>
+  <loc>
+   https://duta.in/sitemap.xml
+  </loc>
+ </sitemap>
+ <sitemap>
+  <loc>
+   https://duta.in/news/2018/7/sitemap-index.xml
+  </loc>
+  <lastmod>
+   2019-03-01T06:30:22.588053+00:00
+  </lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>
+   https://duta.in/news/2018/8/sitemap-index.xml
+  </loc>
+  <lastmod>
+   2019-03-01T06:30:35.242961+00:00
+  </lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>
+   https://duta.in/news/2018/9/sitemap-index.xml
+  </loc>
+  <lastmod>
+   2019-03-01T06:31:42.538846+00:00
+  </lastmod>
+ </sitemap>
+</sitemapindex>
