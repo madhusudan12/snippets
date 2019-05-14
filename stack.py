@@ -1,9 +1,29 @@
-from bs4 import BeautifulSoup
-import requests
+import argparse
 
-web_url = r'https://www.mlb.com/scores/2019-05-12'
-get_web = requests.get(web_url).text
-soup = BeautifulSoup(get_web,"html.parser")
-score = soup.find_all('div',class_='container')
-print(score)
-print(len(score))
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='')
+    parser.add_argument(
+        '-d',
+        '--day',
+        dest='day',
+        action="store",
+        default=None,
+        help='day for which more counts updation needs to run')
+    parser.add_argument(
+        '-f',
+        '--full run',
+        dest="flag",
+        action="store_true",
+        default=False,
+        help='run updating table also if this is set true'
+    )
+    args = parser.parse_args()
+    print(args.day)
+    print(args.flag)
